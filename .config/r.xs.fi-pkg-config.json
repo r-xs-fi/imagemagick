@@ -1,0 +1,10 @@
+{
+	"supply_chain_descriptor": "alpine-package:imagemagick",
+	"usage_examples": [
+		{
+			"title": "Rotate 90 degrees",
+			"cmd": "input.png -rotate 90 output.png",
+			"docker_opts": ["-v", "$(pwd):/workspace"]
+		}
+	]
+}

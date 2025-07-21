@@ -1,0 +1,12 @@
+{
+	"for_description_of_this_file_see": "https://github.com/function61/turbobob",
+	"version_major": 1,
+	"project_name": "ImageMagick",
+	"meta": {
+		"description": "Container image for ImageMagick - free, open-source software suite, used for editing and manipulating digital images.",
+		"website": "https://imagemagick.org/"
+	},
+	"docker_images": [
+		{ "image": "ghcr.io/r-xs-fi/imagemagick", "platforms": ["linux/amd64", "linux/arm64", "linux/arm/v7", "linux/riscv64"], "tag_latest": true }
+	]
+}
